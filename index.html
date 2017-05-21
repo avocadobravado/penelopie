@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="img/png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One|Raleway:400,400i,700" rel="stylesheet">
     <script
     src="https://code.jquery.com/jquery-3.2.1.js"
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
@@ -11,23 +14,167 @@
     <script src="js/scripts.js"></script>
     <title>Penelopie Bakery</title>
   </head>
-  <body>
-    <nav>
-      <div class="navbar">
-        Penelopie Bakery
-      </div>
-    </nav>
-    <div class="bgimage">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6">
-            <p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p>
-            <div class="col-md-6">
-              <p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
 
+  <body>
+<!-- Navbar -->
+    <nav class="navbar">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">Penelopie Bakery</a>
+        </div>
+        <!-- Right side of navbar -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#pies">Pies</a></li>
+            <li><a class="nav-link" href="#location">Location &amp; Hours</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div> <!--Container close -->
+    </nav>
+
+<!--HERO IMAGE-->
+    <div class="bgimage">
+    </div><!--Bg image close-->
+
+  <!--ABOUT US-->
+    <div class="main-content" id="about">
+      <div class="container about-container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="section-title">About Us</h1>
+            <hr>
+          </div><!--Col for Section Title close-->
+          <div class="col-md-6">
+            <p>Founded by <strong>Elizabeth Lewis</strong> in 2015, Penelopie Bakery is based on one simple concept: the best pie using the best ingredients. Our butter and lard pie crusts are based off our grandmother Penelope's recipe and are baked from scratch every morning with organic and local flour.</p>
+            <p>Located in the Flint Farmers' Market, we serve our freshly baked slices every Tuesday, Thursday, and Saturday.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="img/owner.jpeg" id="penelope">
+          </div>
+          <div class="col-md-12">
+            <section class="block">
+              <div class="block-wrap block-style-2">
+                <blockquote>
+                  <p><span class="quote">"</span>If you ever get up this way that cherry pie is worth a stop.<span class="quote">"</span></p>
+                </blockquote>
+              </div>
+              <div class="block-attribution">
+                <p class="block-author">
+                  Dale Cooper
+                </p>
+              </div>
+            </section>
+          </div>
+      </div><!--Container close-->
+    </div><!--Main content-->
+
+  <!--PIE SELECTION-->
+    <div class="bgimage2" id="pies">
+      <div class="container pie-container" id="pie-content">
+        <div class="row pie-wrapper">
+          <div class="col-md-12">
+            <h1 class="section-title">Our Pies</h1>
+            <hr class="purple">
+          </div><!--Col for Section Title close-->
+          <div class="col-md-6">
+            <ul class="pie-types">
+              <li>Apple</li>
+              <li>Apple Cheddar</li>
+              <li>Banana Meringue</li>
+              <li>Banana Pecan Chocolate</li>
+              <li>Blueberry</li>
+              <li>Cherry</li>
+              <li>Chocolate Peanut Butter</li>
+              <li>Chocolate Orange</li>
+              <li>Coconut</li>
+              <li>Custard</li>
+            </ul>
+          </div><!--Col for left pies close-->
+          <div class="col-md-6">
+            <ul class="pie-types">
+              <li>French Silk</li>
+              <li>Key Lime</li>
+              <li>Lemon Meringue</li>
+              <li>Lemon Lavender</li>
+              <li>Pecan</li>
+              <li>Passionfruit and Coconut</li>
+              <li>Pumpkin</li>
+              <li>Salted Rose and Honey</li>
+              <li>Strawberry</li>
+              <li>Vanilla Meringue</li>
+            </ul>
+          </div><!--Col for right pies close-->
+        </div><!--Row close-->
+      </div><!--Container close-->
+    </div><!--Bg image2 close-->
+
+  <!--CONTACT AND LOCATION-->
+
+  <div class="main-content hours-content" id="location">
+    <div class="container hours-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="section-title">Hours &amp; Location</h1>
+          <hr>
+        </div><!--Col for Section Title close-->
+        <div class="col-md-6">
+          <p>We call the <strong>Flint Farmers' Market</strong> home. You can find us at the market every Tuesday, Thursday, and Saturday.</p>
+
+          <h3 class="location">Hours</h4>
+          <p><strong class="location">TUESDAY:</strong> 11:00 AM to 5:00 PM</p>
+          <p><strong class="location">THURSDAY:</strong> 11:00 AM to 5:00 PM</p>
+          <p><strong class="location">SATURDAY:</strong> 8:00 AM to 6:00 PM</p>
+
+          <h3 class="location">Location</h4>
+          <p>300 E 1st St, Flint, MI 48502</p>
+
+        </div>
+        <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.17755020824!2d-83.68991438479321!3d43.01664987914826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88238219de048927%3A0xe01dc046ee8d4a4f!2sFlint+Farmers&#39;+Market!5e0!3m2!1sen!2sus!4v1495317341294" width="400" height="320" frameborder="0" style="border:0" allowfullscreen id="map"></iframe>
+        </div>
+    </div><!--Container close-->
+  </div><!--Main content-->
+
+  <!--CONTACT -->
+
+    <div class="bgimage3" id="contact">
+      <div class="container pie-container" id="pie-content">
+        <div class="row pie-wrapper">
+          <div class="col-md-12">
+            <h1 class="section-title">Contact</h1>
+            <hr class="purple">
+          </div><!--Col for Section Title close-->
+            <div class="form-group col-md-offset-2">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name" required>
+            </div><!--Name closes-->
+            <div class="form-group col-md-offset-2">
+              <label for="address">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="Your email" required>
+            </div>
+            <div class="form-group col-md-offset-2">
+              <label for="text-area">How can we help?</label>
+              <textarea class="form-control" rows="5" id="text-area"></textarea>
+            </div><!--Text area close-->
+            <button type="submit" class="btn btn-lg center-block">Submit</button>
+            </form><!--Form close-->
+          <div class="media">
+            <a class="media-link" href="#"><i class="fa fa-twitter fa-2x"></i></a>
+            <a class="media-link" href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a class="media-link" href="#"><i class="fa fa-instagram fa-2x"></i></a>
+            <a class="media-link" href="#"><i class="fa fa-snapchat fa-2x"></i></a>
+          </div>
+          </div><!--Row close-->
+      </div><!--Container close-->
+    </div><!--Bg image3 close-->
   </body>
 </html>
