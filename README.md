@@ -8,6 +8,14 @@ Penelopie is a one page site built with Bootstrap for a fictional pie company na
 
 ## Screenshots
 
+Landing area
+![landing area](https://github.com/avocadobravado/penelopie/blob/master/img/screenshot1.png?raw=true)
+
+![about](https://github.com/avocadobravado/penelopie/blob/master/img/screenshot3.png?raw=true)
+
+Pie Menu
+![pie text](https://github.com/avocadobravado/penelopie/blob/master/img/screenshot2.png?raw=true)
+
 ## Setup/Installation Requirements
 
 * Open CMD/Terminal
